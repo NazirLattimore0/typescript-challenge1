@@ -6,6 +6,9 @@ function sumArray(numbers: number[]): number {
   }
   return total;
 }
+sumArray([1, 2]);
+const res = sumArray([1, 2]);
+console.log(res);
 
 // Create a function that takes an array of numbers
 //  as an argument and returns the sum of all the numbers in

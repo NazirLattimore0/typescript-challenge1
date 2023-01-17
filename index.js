@@ -6,6 +6,9 @@ function sumArray(numbers) {
     }
     return total;
 }
+sumArray([1, 2]);
+var res = sumArray([1, 2]);
+console.log(res);
 // Create a function that takes an array of numbers
 //  as an argument and returns the sum of all the numbers in
 //  the array. Use type annotations to indicate the type
